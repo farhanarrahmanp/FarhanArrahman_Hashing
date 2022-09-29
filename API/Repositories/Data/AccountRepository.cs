@@ -35,18 +35,18 @@ namespace API.Repositories.Data
         {
             // userroles -> roles -> users -> employees
             Console.WriteLine("Masuk response login...");
-            correctHash = BCrypt.Net.BCrypt.HashPassword(login.Password, BCrypt.Net.BCrypt.GenerateSalt(12));
+            var correctHash = BCrypt.Net.BCrypt.HashPassword(login.Password, BCrypt.Net.BCrypt.GenerateSalt(12));
             var data = myContext.UserRoles
                 .Include(x => x.Role)
                 .Include(x => x.User)
                 .Include(x => x.User.Employee)
                 .FirstOrDefault(x =>
                     x.User.Employee.Email.Equals(login.Email) &&
-                    x.User.Password.Equals(BCrypt.Net.BCrypt.Verify(login.Password, correctHash)));
+                    x.User.Password.Equals(correctHash));
             Console.WriteLine("data myContext: - "+login.Email);
             Console.WriteLine("data myContext: - " + login.Password);
             Console.WriteLine("Berhasil myContextUserRoles!");
-            if (data != null)
+            if (BCrypt.Net.BCrypt.Verify(login.Password, data.User.Password))
             {
                 Console.WriteLine("data tidak null!");
                 ResponseLogin responseLogin = new ResponseLogin()
@@ -95,7 +95,7 @@ namespace API.Repositories.Data
                 User user = new User()
                 {
                     Id = registeredEmployee,
-                    Password = BCrypt.Net.BCrypt.HashPassword(register.Password, BCrypt.Net.BCrypt.GenerateSalt(12));
+                    Password = BCrypt.Net.BCrypt.HashPassword(register.Password, BCrypt.Net.BCrypt.GenerateSalt(12))
                 };
 
                 try
@@ -118,7 +118,7 @@ namespace API.Repositories.Data
                         }
                     }
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     // if have a problem 
                     var dataEmployee = myContext.Employees.Find(registeredEmployee);
@@ -136,8 +136,7 @@ namespace API.Repositories.Data
             {
                 return 0;
             }
-            correctHash = BCrypt.Net.BCrypt.HashPassword(oldPassword, BCrypt.Net.BCrypt.GenerateSalt(12));
-            if (data.Password == correctHash)
+            if (BCrypt.Net.BCrypt.Verify(oldPassword, data.Password))
             {
                 data.Password = BCrypt.Net.BCrypt.HashPassword(newPassword, BCrypt.Net.BCrypt.GenerateSalt(12));
             }

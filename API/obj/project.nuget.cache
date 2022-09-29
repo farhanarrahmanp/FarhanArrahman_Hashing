@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MTjyNSq0ZAR/FEqVirWn/oknI73i814/v4CbKSX5f2jklEF+56XF8AT07jzehn1uxgDWBmmpzdPyGc1hB7lXKQ==",
+  "dgSpecHash": "sL+C4IuJKP7s3FRoOHgr3qI/WBGxcnUvRVYQY/OSFOsqq3JjzrtExadfg+VIpFxxG9SpUrdp1zPqOwTO/1lwZA==",
   "success": true,
   "projectFilePath": "/Users/farhan/VSProjects/DTSMCC_WebApp/API/API.csproj",
   "expectedPackageFiles": [
-    "/Users/farhan/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
+    "/Users/farhan/.nuget/packages/bcrypt.net-next/3.5.0/bcrypt.net-next.3.5.0.nupkg.sha512",
     "/Users/farhan/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/farhan/.nuget/packages/microsoft.bcl.hashcode/1.1.1/microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "/Users/farhan/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

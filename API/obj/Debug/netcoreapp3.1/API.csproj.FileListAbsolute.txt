@@ -5,6 +5,7 @@
 /Users/farhan/VSProjects/DTSMCC_WebApp/API/bin/Debug/netcoreapp3.1/API.runtimeconfig.dev.json
 /Users/farhan/VSProjects/DTSMCC_WebApp/API/bin/Debug/netcoreapp3.1/API.dll
 /Users/farhan/VSProjects/DTSMCC_WebApp/API/bin/Debug/netcoreapp3.1/API.pdb
+/Users/farhan/VSProjects/DTSMCC_WebApp/API/bin/Debug/netcoreapp3.1/BCrypt.Net-Next.dll
 /Users/farhan/VSProjects/DTSMCC_WebApp/API/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/farhan/VSProjects/DTSMCC_WebApp/API/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
 /Users/farhan/VSProjects/DTSMCC_WebApp/API/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll

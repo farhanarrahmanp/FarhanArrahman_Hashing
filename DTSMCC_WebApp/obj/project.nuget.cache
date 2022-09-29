@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LrshcIrbUroN+1fe9wDeW68EAE6zaTqGzx0Ym/sZg99P580Ew2vvXyW8bnLrIts5bhrDh5eZehbiWRT3GQ59oQ==",
+  "dgSpecHash": "Vi/NUoqYsBBaE7JZ4g04t49ourQRxTz00bptFQtIRYJ3n+Hli9Qk//XCrqJf9wGbW3QWwdHql5wVCMb3TCqvAg==",
   "success": true,
   "projectFilePath": "/Users/farhan/VSProjects/DTSMCC_WebApp/DTSMCC_WebApp/DTSMCC_WebApp.csproj",
   "expectedPackageFiles": [
-    "/Users/farhan/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
+    "/Users/farhan/.nuget/packages/bcrypt.net-next/3.5.0/bcrypt.net-next.3.5.0.nupkg.sha512",
     "/Users/farhan/.nuget/packages/microsoft.aspnetcore.mvc.razor.extensions/3.1.29/microsoft.aspnetcore.mvc.razor.extensions.3.1.29.nupkg.sha512",
     "/Users/farhan/.nuget/packages/microsoft.aspnetcore.mvc.razor.runtimecompilation/3.1.29/microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.29.nupkg.sha512",
     "/Users/farhan/.nuget/packages/microsoft.aspnetcore.razor.language/3.1.29/microsoft.aspnetcore.razor.language.3.1.29.nupkg.sha512",
