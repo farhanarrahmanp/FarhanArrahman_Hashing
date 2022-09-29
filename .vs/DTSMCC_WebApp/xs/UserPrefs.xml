@@ -1,0 +1,102 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/ViewModels/Register.cs">
+    <Files>
+      <File FileName="DTSMCC_WebApp/Controllers/DepartmentController.cs" Line="23" Column="1" />
+      <File FileName="DTSMCC_WebApp/Views/Department/Create.cshtml" />
+      <File FileName="DTSMCC_WebApp/Views/Department/Index.cshtml" />
+      <File FileName="DTSMCC_WebApp/Views/Department/Update.cshtml" />
+      <File FileName="DTSMCC_WebApp/Views/Department/Delete.cshtml" />
+      <File FileName="API/Startup.cs" Line="41" Column="13" />
+      <File FileName="DTSMCC_WebApp/Startup.cs" Line="37" Column="28" />
+      <File FileName="API/appsettings.json" Line="14" Column="1" />
+      <File FileName="DTSMCC_WebApp/appsettings.json" Line="10" Column="104" />
+      <File FileName="API/Context/MyContext.cs" Line="13" Column="10" />
+      <File FileName="API/Models/Department.cs" Line="21" Column="1" />
+      <File FileName="API/Models/Division.cs" Line="7" Column="1" />
+      <File FileName="API/Models/Region.cs" Line="7" Column="1" />
+      <File FileName="DTSMCC_WebApp/Models/Department.cs" />
+      <File FileName="DTSMCC_WebApp/Models/Division.cs" />
+      <File FileName="DTSMCC_WebApp/Models/Region.cs" Line="17" Column="1" />
+      <File FileName="API/Controllers/DivisionController.cs" Line="60" Column="1" />
+      <File FileName="DTSMCC_WebApp/Context/MyContext.cs" Line="22" Column="51" />
+      <File FileName="API/Controllers/WeatherForecastController.cs" Line="25" Column="10" />
+      <File FileName="API/WeatherForecast.cs" Line="16" Column="1" />
+      <File FileName="API/Program.cs" Line="1" Column="1" />
+      <File FileName="API/Properties/launchSettings.json" Line="11" Column="16" />
+      <File FileName="DTSMCC_WebApp/Properties/launchSettings.json" Line="9" Column="5" />
+      <File FileName="API/Controllers/DepartmentController.cs" Line="16" Column="24" />
+      <File FileName="API/Controllers/RegionController.cs" Line="16" Column="41" />
+      <File FileName="API/Repositories/Interface/IDivisionController.cs" Line="3" Column="34" />
+      <File FileName="API/Repositories/Data/DivisionRepository.cs" Line="22" Column="44" />
+      <File FileName="API/Models/Role.cs" Line="7" Column="1" />
+      <File FileName="API/Models/UserRole.cs" Line="15" Column="39" />
+      <File FileName="API/Models/User.cs" Line="19" Column="1" />
+      <File FileName="API/Models/Employee.cs" Line="18" Column="1" />
+      <File FileName="API/Controllers/AccountController.cs" Line="23" Column="25" />
+      <File FileName="API/Repositories/Data/AccountRepository.cs" Line="26" Column="1" />
+      <File FileName="API/ViewModels/Login.cs" Line="1" Column="1" />
+      <File FileName="API/ViewModels/ResponseLogin.cs" Line="4" Column="30" />
+      <File FileName="API/Migrations/20220928071242_initial.Designer.cs" Line="1" Column="1" />
+      <File FileName="DTSMCC_WebApp/Migrations/20220926054112_initial.cs" Line="1" Column="1" />
+      <File FileName="DTSMCC_WebApp/Migrations/MyContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="DTSMCC_WebApp/Controllers/AccountController.cs" Line="48" Column="26" />
+      <File FileName="DTSMCC_WebApp/Views/Account/Index.cshtml" Line="13" Column="1" />
+      <File FileName="API/Migrations/20220928092355_initial.cs" Line="153" Column="42" />
+      <File FileName="API/Migrations/MyContextModelSnapshot.cs" Line="146" Column="22" />
+      <File FileName="API/ViewModels/ResponseClient.cs" Line="15" Column="1" />
+      <File FileName="API/Controllers/ErrorPageController.cs" Line="14" Column="15" />
+      <File FileName="DTSMCC_WebApp/Controllers/AdminPanelController.cs" Line="24" Column="14" />
+      <File FileName="DTSMCC_WebApp/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="DTSMCC_WebApp/Views/AdminPanel/Index.cshtml" Line="8" Column="1" />
+      <File FileName="DTSMCC_WebApp/Views/ErrorPage/Unauthorized.cshtml" Line="8" Column="1" />
+      <File FileName="DTSMCC_WebApp/Views/Home/Index.cshtml" Line="7" Column="9" />
+      <File FileName="API/Repositories/Interface/IAccountRepository.cs" Line="12" Column="2" />
+      <File FileName="API/ViewModels/Register.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DTSMCC_WebApp" expanded="True">
+            <Node name="API" expanded="True">
+              <Node name="Context" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Repositories" expanded="True">
+                <Node name="Data" expanded="True" />
+                <Node name="Interface" expanded="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True">
+                <Node name="Register.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="DTSMCC_WebApp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="AdminPanel" expanded="True" />
+                <Node name="ErrorPage" expanded="True" />
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.DTSMCC__WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{31805BFC-ED95-4487-9F09-46223B9D505D}" ItemName="API" ConfigurationId="Default" />
+        <StartupItem ItemId="{D68D2821-36C4-46E1-B2DE-B635B6439CFB}" ItemName="DTSMCC_WebApp" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+</Properties>

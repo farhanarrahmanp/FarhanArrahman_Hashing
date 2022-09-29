@@ -1,0 +1,50 @@
+﻿@model Department
+
+@{
+    ViewData["Title"] = "Create Department";
+    var Divisions = (IEnumerable<Division>)ViewData["Divisions"];
+}
+
+<h1>Create Department</h1>
+
+<p>
+    <a asp-action="Index"><= Back</a>
+</p>
+
+@using (Html.BeginForm("Create", "Department", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <td>
+                <textarea id="Name" name="Name"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Division @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <td>
+                <select name="DivisionId" id="DivisionId">
+                    @foreach (var division in Divisions)
+                    {
+                        <option value="@division.Id">@division.Name</option>
+                    }
+                    @*<option value="1">Application Development Division</option>
+                    <option value="2">Manage Service Business Unit</option>
+                    <option value="3">Metrodata Information System</option>
+                    <option value="4">Human Resources</option>*@
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <input type="submit" value="Create">
+            </td>
+        </tr>
+    </table>
+}

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Department>
+
+@{
+    ViewData["Title"] = "Update Department";
+    var Divisions = (IEnumerable<Division>)ViewData["Divisions"];
+}
+
+<h1>Update Department</h1>
+
+<p>
+    <a asp-action="Index"><= Back</a>
+</p>
+
+@using (Html.BeginForm("Update", "Department", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <table class="table">
+        @foreach (var department in Model)
+        {
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => department.Name)
+                </th>
+                <td>
+                    <textarea id="Name" name="Name">@Html.DisplayFor(modelItem => department.Name)</textarea>
+                    <input type="hidden" id="Id" name="Id" value="@department.Id">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Division @Html.DisplayNameFor(model => department.Name)
+                </th>
+                <td>
+                    <select name="DivisionId" id="DivisionId">
+                        @foreach (var division in Divisions)
+                        {
+                            <option value="@division.Id">@division.Name</option>
+                        }
+                        @*<option value="1">Application Development Division</option>
+                        <option value="2">Manage Service Business Unit</option>
+                        <option value="3">Metrodata Information System</option>
+                        <option value="4">Human Resources</option>*@
+                    </select>
+                </td>
+            </tr>
+
+            @section Scripts
+            {
+                <script>
+                    $('#DivisionId').val('@Html.DisplayFor(modelItem => department.DivisionId)');
+                </script>
+            }
+        }
+        <tr>
+            <th></th>
+            <td>
+                <input type="submit" value="Update">
+            </td>
+        </tr>
+    </table>
+}
